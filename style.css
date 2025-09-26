@@ -1,0 +1,71 @@
+/* 全局樣式 */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; /* 背景留白 */
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* 內容置中 */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff; /* 白色背景容器 */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 添加陰影 */
+    border-radius: 8px; /* 圓角 */
+}
+
+/* 標題樣式 */
+h1, h2, h3 {
+    color: #222;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 3rem; /* 大字體 */
+    text-align: center; /* 標題置中 */
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+/* 段落樣式 */
+p {
+    margin-bottom: 15px;
+    font-size: 1rem;
+}
+
+/* 按鈕樣式 */
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* 超連結樣式 */
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
