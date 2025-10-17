@@ -41,7 +41,7 @@ guessSubmit.addEventListener("click", checkGuess);   //當按鈕被點擊，執�
   // game state
   const secret = Math.floor(Math.random() * 100) + 1;
   let countNum = 0;
-  const guesses = [];
+  const guesses = []; 23333
 
   // WebAudio
   const AudioCtx = window.AudioContext || window.webkitAudioContext;
